@@ -123,7 +123,6 @@ html {
     display: block;
     padding: 1rem;
     position: absolute;
-    z-index: 1;
     background-color: rgba(234, 235, 225, 0.8);
 }
 .dropdown__nav__item {
@@ -156,7 +155,7 @@ html {
 
 /*------WORKS PAGE-------------*/
 .item {
-    
+    padding-bottom: 2rem;
 }
 .item__image {
      overflow: hidden;
