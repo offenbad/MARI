@@ -45,7 +45,7 @@ html {
     font-size: 1.5rem;
     letter-spacing: 1px;
     display: block;
-    padding: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
 }
 .series__textblock__segment {
     padding: 1rem;
@@ -163,9 +163,10 @@ html {
 .item img {
     width: 100%;
     height: auto;
+    cursor: zoom-in;
     transition: transform 1.5s;
 }
-.item img:hover,
+
 .item img:active {
     transform: scale(2);
 }
@@ -185,15 +186,11 @@ html {
     display: block;
     padding: .5rem;
 }
-.series__textblock .resume__entry {
-    max-width: 90rem;
-}
 .resume__entry em {
     letter-spacing: 1.5px;
     display: inline-block; 
     padding: 0 .7rem; 
 }
-
 
 
 /*------contact page-------------*/
